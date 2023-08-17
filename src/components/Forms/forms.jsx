@@ -5,7 +5,7 @@ import Label from "../core-components/Label";
 export default function Forms() {
     return (
         <form action="" className="">
-            <fieldset className="w-full  flex flex-col gap-2 right">
+            <fieldset className="w-full  flex flex-col gap-4 right">
                 <Label>Name</Label>
                 <Input type='text' placeholder='e.g. Stephen King' />
                 <Label>E-mail Address</Label>
