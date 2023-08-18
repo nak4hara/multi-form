@@ -1,6 +1,6 @@
-export default function Button({children, color, onClick}) {
+export default function Button({children, styles, onClick}) {
     return(
-        <button className={`${color} p-2 w-32 rounded-lg font-semibold`} onClick={onClick}>
+        <button className={`${styles} p-4 w-32 rounded-lg font-semibold`} onClick={onClick}>
             {children}
         </button>
     )

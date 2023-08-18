@@ -1,11 +1,10 @@
-import Button from "../core-components/Button";
 import Input from "../core-components/Input";
 import Label from "../core-components/Label";
 
 export default function Forms() {
     return (
         <form action="" className="">
-            <fieldset className="w-full  flex flex-col gap-4 right">
+            <fieldset className="w-full flex flex-col gap-4 sm:gap-5">
                 <Label>Name</Label>
                 <Input type='text' placeholder='e.g. Stephen King' />
                 <Label>E-mail Address</Label>
